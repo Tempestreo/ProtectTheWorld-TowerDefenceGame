@@ -2119,12 +2119,12 @@ SpriteRenderer:
   m_SortingLayerID: 403207083
   m_SortingLayer: 7
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cc6518a647b0a4e4987dc2777f3510f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7261ed7870d0b7449b656ca47601a9ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.24588235, y: 0.24705882}
+  m_Size: {x: 4.18, y: 4.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2139,7 +2139,7 @@ Transform:
   m_GameObject: {fileID: 1737355344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 119.1, y: 0.00000023841858, z: 9.48}
-  m_LocalScale: {x: 50.8023, y: 50.8023, z: 50.8023}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -2867,6 +2867,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9029320839085128951, guid: e92185db795d8054f859ce330e863fb2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3f91f3e9a7cfdc1479a45e9295fc4f05, type: 2}
     - target: {fileID: 9029320839134650769, guid: e92185db795d8054f859ce330e863fb2,
         type: 3}
       propertyPath: m_Name
@@ -2876,7 +2881,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 58d05ce8af6e625469a6852607d59456,
+      objectReference: {fileID: 21300000, guid: 46b2f69b933f7454f915c7dc47ef301a,
         type: 3}
     - target: {fileID: 9029320839134650770, guid: e92185db795d8054f859ce330e863fb2,
         type: 3}
@@ -2887,6 +2892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029320839134650770, guid: e92185db795d8054f859ce330e863fb2,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9029320839134650771, guid: e92185db795d8054f859ce330e863fb2,
         type: 3}
@@ -2943,6 +2953,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9029320839355047353, guid: e92185db795d8054f859ce330e863fb2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebbc08933c5326846b82c9c95d589b0d, type: 2}
     - target: {fileID: 9029320839665050122, guid: e92185db795d8054f859ce330e863fb2,
         type: 3}
       propertyPath: m_RenderPostProcessing
