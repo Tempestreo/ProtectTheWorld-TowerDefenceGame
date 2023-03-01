@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - centertag
+  - worldtag
+  - rockettag
+  - meteortag
+  - rangetag
+  - meteortag2
+  - meteortag3
+  - puantexttag
+  - wavetexttag
+  - bosstag
+  - btnsizetag
+  - btntechnologytag
+  - introducetag
+  - particle
+  - Protector
+  - spaceshiptag
+  - plasmatag
+  - Lasertag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - world
+  - Water
+  - UI
+  - canvas
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: centerlayer
+    uniqueID: 502010617
+    locked: 0
+  - name: backgroundlayer
+    uniqueID: 2494370727
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: rangelayer
+    uniqueID: 1187995519
+    locked: 0
+  - name: worldlayer
+    uniqueID: 334640237
+    locked: 0
+  - name: particlelayer
+    uniqueID: 126329741
+    locked: 0
+  - name: rocketlayer
+    uniqueID: 3386004895
+    locked: 0
+  - name: meteorlayer
+    uniqueID: 1231890891
+    locked: 0
+  - name: domelayer
+    uniqueID: 2344297309
+    locked: 0
+  - name: canvaslayer
+    uniqueID: 403207083
+    locked: 0

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4190005327538696247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4190005327538696201}
+  - component: {fileID: 4190005327538696200}
+  m_Layer: 0
+  m_Name: ButtonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4190005327538696201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4190005327538696247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 720.2395, y: 375.00775, z: -169.83563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4190005327538696200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4190005327538696247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9511300753f2fc14facd8cc3f61d6e17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point: 0
+  cost: 0
+  lvlsize: 1
+  lvlscience: 1
+  lvlrange: 1
+  lvlrate: 1
+  lvldamage: 1
+  lvlcost: 1
+  lvlrepair: 1
+  txtPoint: {fileID: 0}
+  txtInformation: {fileID: 0}
+  range: {fileID: 0}
+  pnlRocket: {fileID: 0}
+  pnlUpgrade: {fileID: 0}
+  pnlWorld: {fileID: 0}
+  btnRange: {fileID: 0}
+  btnCost: {fileID: 0}
+  btnDamage: {fileID: 0}
+  btnRate: {fileID: 0}
+  btnReserves: {fileID: 0}
+  btnSize: {fileID: 0}
+  btnConsciousness: {fileID: 0}
+  btnScience: {fileID: 0}
+  btnRepair: {fileID: 0}
+  btnFleet: {fileID: 0}
