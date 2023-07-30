@@ -26,6 +26,7 @@ public class SphereScript : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
+        //center of the shockwave on the hexagonal sphere which protects the world
         if (other.tag == "meteortag")
         {
             float x = other.transform.position.x;
@@ -59,6 +60,7 @@ public class SphereScript : MonoBehaviour
             hit = false;
         }
     }
+    //transparency of the hexagonal sphere. changes by damage
     IEnumerator Restore()
     {
         for (; transparency > 0; transparency -= 0.02f)

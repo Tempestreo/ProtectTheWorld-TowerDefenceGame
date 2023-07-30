@@ -10,7 +10,6 @@ public class SceneLoadment : MonoBehaviour
     public GameObject pnlSkillTree;
     public TextMeshProUGUI currentTimeSpeed;
 
-    // Start is called before the first frame update
     void Start()
     {
         // player prefs for freeze and speedup time skills in skilltree
@@ -24,7 +23,6 @@ public class SceneLoadment : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -51,6 +49,7 @@ public class SceneLoadment : MonoBehaviour
     }
     #endregion
 
+    //speedup and slowdown time are the skills at the end of skilltree
     public void SpeedUpTime()
     {
         if (Time.timeScale < PlayerPrefs.GetInt("Fastesttime"))

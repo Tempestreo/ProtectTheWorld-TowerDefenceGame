@@ -8,7 +8,7 @@ public class MeteoriteParticleScript : MonoBehaviour
     public float meteorhp;
     [System.Obsolete]
     void Start()
-    {
+    {// changes particle properties by size 
         particle = this.GetComponent<ParticleSystem>();
         particle.Play();
         particle.startSize *= meteorhp;

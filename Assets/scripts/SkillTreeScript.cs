@@ -9,7 +9,6 @@ public class SkillTreeScript : MonoBehaviour
     public Sprite speedUpTime;
     public Button[,] Skills = new Button[6, 4];
     public GameObject pnlDescription;
-    // Start is called before the first frame update
     void Start()
     {
         this.transform.GetChild(9).GetChild(0).GetComponent<Text>().text = (PlayerPrefs.GetInt("Level") - PlayerPrefs.GetInt("Usedskillpoints")).ToString();
@@ -22,7 +21,7 @@ public class SkillTreeScript : MonoBehaviour
             }
         }       
         
-        //adding skills to array
+        //adding skills into the array
         if (PlayerPrefs.GetInt("Resource") < 4)
         {
             Skills[0, PlayerPrefs.GetInt("Resource")].interactable = true;

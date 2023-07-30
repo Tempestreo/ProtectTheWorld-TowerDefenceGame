@@ -23,11 +23,13 @@ public class LaserEffectScript : MonoBehaviour
     }
     void Update()
     {
+        //stops the laser that attacks to the world
         if (scworld.ProtectorsAreReady)
         {
             LaserEffect.Stop();
             Laser.Stop();
         }
+        //launch the laser ball that attacks to the protector
         else if(!scworld.ProtectorsAreReady && scShip.isEngineStopped)
         {
             LaserEffect.Play();
@@ -43,6 +45,7 @@ public class LaserEffectScript : MonoBehaviour
         }
 
     }
+    //changes properties by size
     IEnumerator num()
     {
         offset.x += 0.5f;

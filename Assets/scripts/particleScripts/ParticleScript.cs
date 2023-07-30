@@ -8,6 +8,7 @@ public class ParticleScript : MonoBehaviour
     [System.Obsolete]
     void Start()
     {
+        //launch particle system and change its properties by size
         particle = this.GetComponent<ParticleSystem>();
         particle.startSize *= GetComponentInParent<Meteoritescript>().fullhp;
         particle.startLifetime *= GetComponentInParent<Meteoritescript>().fullhp;

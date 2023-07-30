@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LogoScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //the logo that appears at the start of the game
     void Start()
     {
         Invoke("NextScene", 3);

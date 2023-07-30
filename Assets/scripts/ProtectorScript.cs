@@ -20,7 +20,6 @@ public class ProtectorScript : MonoBehaviour
     bool laserready;
     public int hp;
 
-    // Start is called before the first frame update
     void Start()
     {
         #region linking components
@@ -36,7 +35,6 @@ public class ProtectorScript : MonoBehaviour
         this.transform.localScale = new Vector3(this.transform.localScale.x * (scButton.lvlsize / 1.5f), this.transform.localScale.y * (scButton.lvlsize / 1.5f), this.transform.localScale.z * (scButton.lvlsize/ 1.5f));
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (hp < 1)

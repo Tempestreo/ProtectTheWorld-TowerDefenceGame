@@ -34,7 +34,7 @@ public class Rocketscript : MonoBehaviour
         Invoke("SelfDestroy", 4f);
         Movement();
     }
-    //move the rocket to the meteorite
+    //move the rocket towards to the meteorite
     void Movement()
     {
         rotation = Quaternion.LookRotation(scrange.meteoriteposition - this.transform.position);

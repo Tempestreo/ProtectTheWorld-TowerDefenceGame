@@ -42,7 +42,7 @@ public class PlasmaScript : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-    //moving the plasma to the protector ship
+    //moving the plasma towards to the protector ship
     void Movement()
     {
         rotation = Quaternion.LookRotation(Protector);

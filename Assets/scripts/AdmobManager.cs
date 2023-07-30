@@ -15,7 +15,7 @@ public class AdmobManager : MonoBehaviour
 
     private void RequestBanner()
     {
-        string adUnitId = "ca-app-pub-5126783762930243/6948581027";         //test id'si gerçek reklam için deðiþtirilecek
+        string adUnitId = "ca-app-pub-5126783762930243/6948581027";         //this is a test id
 
         // Create a 320x50 banner at the top of the screen.
         this.bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
