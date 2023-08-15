@@ -14,6 +14,4 @@ As seen at the photo, the game focused on AI fights. All player can do is contro
 
 For drawings Photoshop 2020, as a game engine Unity 2D (2020.3.29f1), as an IDE Visual Studio 2022 used at the game.
 
-Adobe Photoshop 2020 used for the drawings, Unity (2020.3.29f1) used as game engine and Visual Studio 2022 used as IDE.
-
 for those who wants to play: https://play.google.com/store/apps/details?id=com.TurquoiseProduction.ProtectTheWorld
