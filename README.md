@@ -1,4 +1,9 @@
 # ProtectTheWorld-TowerDefenceGame
+
+Gameplay video;
+https://github.com/Tempestreo/ProtectTheWorld-TowerDefenceGame/assets/60495427/d8689e21-86bd-46c5-b1e7-7f4da57a54bd
+
+
 ![GameLogo](https://user-images.githubusercontent.com/60495427/222208304-766ee01b-1547-4229-a087-b3f31331cc22.png)
 
 Protect The World is a single player two dimensional tower defence type strategy mobile game.
